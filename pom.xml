@@ -22,12 +22,14 @@
 	</properties>
 
 	<dependencies>
+		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
 		<dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
-			<version>7.4.0</version>
-			<scope>test</scope>
+			<version>7.1.0</version>
+			<scope>compile</scope>
 		</dependency>
+
 
 		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 		<dependency>
@@ -103,6 +105,7 @@
 					<configuration>
 						<source>11</source>
 						<target>11</target>
+						<executable>C:\Program Files\Java\jdk-11.0.13\bin\javac</executable>
 					</configuration>
 				</plugin>
 

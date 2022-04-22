@@ -16,7 +16,7 @@ public class SearchProduct_PO extends BaseClass{
 		PageFactory.initElements(driver, this);
 	}
 	
-	@FindBy(css = "input#twotabsearch textbox")
+	@FindBy(css = "input#twotabsearchtextbox")
 	private WebElement search_TextBox;
 	
 	@FindBy(xpath = "(//div[@class='autocomplete-results-container']//div[contains(@class,'s-suggestion') and @role='button'])[1]")
